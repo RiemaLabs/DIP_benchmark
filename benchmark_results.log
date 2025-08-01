@@ -5,23 +5,23 @@ Processing Circuit: AliasCheck@aliascheck.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/AliasCheck@aliascheck.r1cs ./circuits/AliasCheck@aliascheck_js/AliasCheck@aliascheck.wasm ./circuits/AliasCheck@aliascheck_input.json"
-	User time (seconds): 0.20
+	User time (seconds): 0.19
 	System time (seconds): 0.04
-	Percent of CPU this job got: 476%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Percent of CPU this job got: 550%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 21484
+	Maximum resident set size (kbytes): 21408
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 15
-	Minor (reclaiming a frame) page faults: 3040
-	Voluntary context switches: 1617
-	Involuntary context switches: 6599
+	Major (requiring I/O) page faults: 17
+	Minor (reclaiming a frame) page faults: 3091
+	Voluntary context switches: 1153
+	Involuntary context switches: 628
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -32,23 +32,23 @@ Command exited with non-zero status 1
 Processing Circuit: AND@gates.circom
 ✅ Valid input found. Running benchmark...
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/AND@gates.r1cs ./circuits/AND@gates_js/AND@gates.wasm ./circuits/AND@gates_input.json"
-	User time (seconds): 0.09
+	User time (seconds): 0.08
 	System time (seconds): 0.01
-	Percent of CPU this job got: 408%
+	Percent of CPU this job got: 439%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 21884
+	Maximum resident set size (kbytes): 22440
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 11
-	Minor (reclaiming a frame) page faults: 2393
-	Voluntary context switches: 988
-	Involuntary context switches: 717
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 2367
+	Voluntary context switches: 960
+	Involuntary context switches: 228
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -62,23 +62,23 @@ Processing Circuit: BabyAdd@babyjub.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BabyAdd@babyjub.r1cs ./circuits/BabyAdd@babyjub_js/BabyAdd@babyjub.wasm ./circuits/BabyAdd@babyjub_input.json"
-	User time (seconds): 0.08
-	System time (seconds): 0.03
-	Percent of CPU this job got: 432%
+	User time (seconds): 0.10
+	System time (seconds): 0.01
+	Percent of CPU this job got: 457%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 22344
+	Maximum resident set size (kbytes): 20620
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 19
-	Minor (reclaiming a frame) page faults: 2437
-	Voluntary context switches: 1197
-	Involuntary context switches: 1665
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 2476
+	Voluntary context switches: 951
+	Involuntary context switches: 332
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -94,21 +94,21 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BabyCheck@babyjub.r1cs ./circuits/BabyCheck@babyjub_js/BabyCheck@babyjub.wasm ./circuits/BabyCheck@babyjub_input.json"
 	User time (seconds): 0.08
 	System time (seconds): 0.02
-	Percent of CPU this job got: 407%
+	Percent of CPU this job got: 420%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20236
+	Maximum resident set size (kbytes): 19668
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 15
-	Minor (reclaiming a frame) page faults: 2421
-	Voluntary context switches: 1080
-	Involuntary context switches: 1304
+	Major (requiring I/O) page faults: 12
+	Minor (reclaiming a frame) page faults: 2335
+	Voluntary context switches: 918
+	Involuntary context switches: 513
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -122,23 +122,23 @@ Processing Circuit: BabyDbl@babyjub.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BabyDbl@babyjub.r1cs ./circuits/BabyDbl@babyjub_js/BabyDbl@babyjub.wasm ./circuits/BabyDbl@babyjub_input.json"
-	User time (seconds): 0.10
-	System time (seconds): 0.01
-	Percent of CPU this job got: 425%
+	User time (seconds): 0.09
+	System time (seconds): 0.02
+	Percent of CPU this job got: 484%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 19888
+	Maximum resident set size (kbytes): 20012
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 2
-	Minor (reclaiming a frame) page faults: 2444
-	Voluntary context switches: 1033
-	Involuntary context switches: 1108
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 2399
+	Voluntary context switches: 1009
+	Involuntary context switches: 272
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -153,22 +153,22 @@ Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BabyPbk@babyjub.r1cs ./circuits/BabyPbk@babyjub_js/BabyPbk@babyjub.wasm ./circuits/BabyPbk@babyjub_input.json"
 	User time (seconds): 1.30
-	System time (seconds): 0.11
-	Percent of CPU this job got: 455%
+	System time (seconds): 0.10
+	Percent of CPU this job got: 445%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.31
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 37360
+	Maximum resident set size (kbytes): 39792
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 11
-	Minor (reclaiming a frame) page faults: 9778
-	Voluntary context switches: 2478
-	Involuntary context switches: 8718
+	Major (requiring I/O) page faults: 15
+	Minor (reclaiming a frame) page faults: 9341
+	Voluntary context switches: 2136
+	Involuntary context switches: 5266
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -181,20 +181,20 @@ Processing Circuit: BinSub@binsub.circom
 Error: Custom { kind: InvalidInput, error: "Input array element not a string" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BinSub@binsub.r1cs ./circuits/BinSub@binsub_js/BinSub@binsub.wasm ./circuits/BinSub@binsub_input.json"
-	User time (seconds): 0.01
-	System time (seconds): 0.01
-	Percent of CPU this job got: 437%
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 366%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18572
+	Maximum resident set size (kbytes): 18428
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 7
-	Minor (reclaiming a frame) page faults: 1981
-	Voluntary context switches: 505
-	Involuntary context switches: 139
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 1988
+	Voluntary context switches: 704
+	Involuntary context switches: 21
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -211,19 +211,19 @@ Error: Custom { kind: InvalidInput, error: "Input array element not a string" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BinSum@binsum.r1cs ./circuits/BinSum@binsum_js/BinSum@binsum.wasm ./circuits/BinSum@binsum_input.json"
 	User time (seconds): 0.02
-	System time (seconds): 0.00
-	Percent of CPU this job got: 400%
+	System time (seconds): 0.01
+	Percent of CPU this job got: 457%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20332
+	Maximum resident set size (kbytes): 20680
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 11
-	Minor (reclaiming a frame) page faults: 2042
-	Voluntary context switches: 546
-	Involuntary context switches: 115
+	Major (requiring I/O) page faults: 13
+	Minor (reclaiming a frame) page faults: 2025
+	Voluntary context switches: 456
+	Involuntary context switches: 18
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8
@@ -240,23 +240,23 @@ Processing Circuit: BitElementMulAny@escalarmulany.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/BitElementMulAny@escalarmulany.r1cs ./circuits/BitElementMulAny@escalarmulany_js/BitElementMulAny@escalarmulany.wasm ./circuits/BitElementMulAny@escalarmulany_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.02
-	Percent of CPU this job got: 455%
+	User time (seconds): 0.10
+	System time (seconds): 0.01
+	Percent of CPU this job got: 472%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 19960
+	Maximum resident set size (kbytes): 20556
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 3
-	Minor (reclaiming a frame) page faults: 2438
-	Voluntary context switches: 1147
-	Involuntary context switches: 1382
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 2508
+	Voluntary context switches: 1001
+	Involuntary context switches: 414
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -270,23 +270,23 @@ Processing Circuit: Bits2Num@bitify.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/Bits2Num@bitify.r1cs ./circuits/Bits2Num@bitify_js/Bits2Num@bitify.wasm ./circuits/Bits2Num@bitify_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.01
-	Percent of CPU this job got: 400%
+	User time (seconds): 0.08
+	System time (seconds): 0.02
+	Percent of CPU this job got: 434%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 19464
+	Maximum resident set size (kbytes): 18448
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 14
-	Minor (reclaiming a frame) page faults: 2327
-	Voluntary context switches: 1128
-	Involuntary context switches: 1088
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 2435
+	Voluntary context switches: 904
+	Involuntary context switches: 277
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -301,18 +301,18 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/Bits2Num_strict@bitify.r1cs ./circuits/Bits2Num_strict@bitify_js/Bits2Num_strict@bitify.wasm ./circuits/Bits2Num_strict@bitify_input.json"
 	User time (seconds): 0.02
 	System time (seconds): 0.01
-	Percent of CPU this job got: 316%
+	Percent of CPU this job got: 345%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18936
+	Maximum resident set size (kbytes): 18968
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 5
-	Minor (reclaiming a frame) page faults: 2089
-	Voluntary context switches: 626
-	Involuntary context switches: 171
+	Minor (reclaiming a frame) page faults: 2073
+	Voluntary context switches: 742
+	Involuntary context switches: 158
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -328,23 +328,23 @@ Processing Circuit: Bits2Point@pointbits.circom
 Error: Custom { kind: InvalidInput, error: "Failed to parse inputs JSON: expected value at line 2 column 14" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/Bits2Point@pointbits.r1cs ./circuits/Bits2Point@pointbits_js/Bits2Point@pointbits.wasm ./circuits/Bits2Point@pointbits_input.json"
-	User time (seconds): 0.02
-	System time (seconds): 0.00
-	Percent of CPU this job got: 412%
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 387%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18960
+	Maximum resident set size (kbytes): 18496
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 9
-	Minor (reclaiming a frame) page faults: 1997
-	Voluntary context switches: 533
-	Involuntary context switches: 119
+	Minor (reclaiming a frame) page faults: 1946
+	Voluntary context switches: 624
+	Involuntary context switches: 105
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -359,21 +359,21 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/Bits2Point_Strict@pointbits.r1cs ./circuits/Bits2Point_Strict@pointbits_js/Bits2Point_Strict@pointbits.wasm ./circuits/Bits2Point_Strict@pointbits_input.json"
 	User time (seconds): 0.03
 	System time (seconds): 0.01
-	Percent of CPU this job got: 288%
+	Percent of CPU this job got: 306%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 19984
+	Maximum resident set size (kbytes): 23776
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 8
-	Minor (reclaiming a frame) page faults: 2337
-	Voluntary context switches: 731
-	Involuntary context switches: 211
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 2326
+	Voluntary context switches: 581
+	Involuntary context switches: 14
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -388,18 +388,18 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/CompConstant@compconstant.r1cs ./circuits/CompConstant@compconstant_js/CompConstant@compconstant.wasm ./circuits/CompConstant@compconstant_input.json"
 	User time (seconds): 0.02
 	System time (seconds): 0.01
-	Percent of CPU this job got: 350%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Percent of CPU this job got: 388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20752
+	Maximum resident set size (kbytes): 20896
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 6
-	Minor (reclaiming a frame) page faults: 2032
-	Voluntary context switches: 599
-	Involuntary context switches: 81
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 2054
+	Voluntary context switches: 489
+	Involuntary context switches: 7
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -420,23 +420,23 @@ Processing Circuit: EdDSAMiMCSpongeVerifier@eddsamimcsponge.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/EdDSAMiMCSpongeVerifier@eddsamimcsponge.r1cs ./circuits/EdDSAMiMCSpongeVerifier@eddsamimcsponge_js/EdDSAMiMCSpongeVerifier@eddsamimcsponge.wasm ./circuits/EdDSAMiMCSpongeVerifier@eddsamimcsponge_input.json"
-	User time (seconds): 3.16
-	System time (seconds): 0.22
-	Percent of CPU this job got: 523%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.64
+	User time (seconds): 3.23
+	System time (seconds): 0.17
+	Percent of CPU this job got: 541%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.62
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 64516
+	Maximum resident set size (kbytes): 64056
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 20
-	Minor (reclaiming a frame) page faults: 19531
-	Voluntary context switches: 2594
-	Involuntary context switches: 6441
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 18837
+	Voluntary context switches: 2531
+	Involuntary context switches: 1985
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -450,23 +450,23 @@ Processing Circuit: EdDSAMiMCVerifier@eddsamimc.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/EdDSAMiMCVerifier@eddsamimc.r1cs ./circuits/EdDSAMiMCVerifier@eddsamimc_js/EdDSAMiMCVerifier@eddsamimc.wasm ./circuits/EdDSAMiMCVerifier@eddsamimc_input.json"
-	User time (seconds): 2.71
-	System time (seconds): 0.18
-	Percent of CPU this job got: 527%
+	User time (seconds): 2.67
+	System time (seconds): 0.21
+	Percent of CPU this job got: 526%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.54
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 60840
+	Maximum resident set size (kbytes): 61320
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 11
-	Minor (reclaiming a frame) page faults: 19011
-	Voluntary context switches: 1916
-	Involuntary context switches: 1947
+	Major (requiring I/O) page faults: 12
+	Minor (reclaiming a frame) page faults: 19107
+	Voluntary context switches: 2125
+	Involuntary context switches: 1440
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -480,23 +480,23 @@ Processing Circuit: EdDSAPoseidonVerifier@eddsaposeidon.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/EdDSAPoseidonVerifier@eddsaposeidon.r1cs ./circuits/EdDSAPoseidonVerifier@eddsaposeidon_js/EdDSAPoseidonVerifier@eddsaposeidon.wasm ./circuits/EdDSAPoseidonVerifier@eddsaposeidon_input.json"
-	User time (seconds): 3.26
-	System time (seconds): 0.30
-	Percent of CPU this job got: 433%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.82
+	User time (seconds): 3.23
+	System time (seconds): 0.27
+	Percent of CPU this job got: 422%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.83
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 235380
+	Maximum resident set size (kbytes): 227020
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 4
-	Minor (reclaiming a frame) page faults: 67982
-	Voluntary context switches: 5676
-	Involuntary context switches: 2382
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 60534
+	Voluntary context switches: 4993
+	Involuntary context switches: 3424
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -509,23 +509,23 @@ Processing Circuit: EdDSAVerifier@eddsa.circom
 Error: Custom { kind: InvalidInput, error: "Failed to parse inputs JSON: expected `,` or `]` at line 3 column 16" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/EdDSAVerifier@eddsa.r1cs ./circuits/EdDSAVerifier@eddsa_js/EdDSAVerifier@eddsa.wasm ./circuits/EdDSAVerifier@eddsa_input.json"
-	User time (seconds): 0.11
-	System time (seconds): 0.12
-	Percent of CPU this job got: 154%
+	User time (seconds): 0.10
+	System time (seconds): 0.13
+	Percent of CPU this job got: 155%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.15
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 36696
+	Maximum resident set size (kbytes): 34980
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 8
-	Minor (reclaiming a frame) page faults: 6227
-	Voluntary context switches: 1160
-	Involuntary context switches: 32
+	Major (requiring I/O) page faults: 15
+	Minor (reclaiming a frame) page faults: 6262
+	Voluntary context switches: 1032
+	Involuntary context switches: 39
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -539,23 +539,23 @@ Processing Circuit: Edwards2Montgomery@montgomery.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/Edwards2Montgomery@montgomery.r1cs ./circuits/Edwards2Montgomery@montgomery_js/Edwards2Montgomery@montgomery.wasm ./circuits/Edwards2Montgomery@montgomery_input.json"
-	User time (seconds): 0.08
+	User time (seconds): 0.09
 	System time (seconds): 0.01
-	Percent of CPU this job got: 420%
+	Percent of CPU this job got: 415%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 22632
+	Maximum resident set size (kbytes): 19844
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 10
-	Minor (reclaiming a frame) page faults: 2406
-	Voluntary context switches: 868
-	Involuntary context switches: 154
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 2345
+	Voluntary context switches: 980
+	Involuntary context switches: 105
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -569,23 +569,23 @@ Processing Circuit: EscalarMulAny@escalarmulany.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/EscalarMulAny@escalarmulany.r1cs ./circuits/EscalarMulAny@escalarmulany_js/EscalarMulAny@escalarmulany.wasm ./circuits/EscalarMulAny@escalarmulany_input.json"
-	User time (seconds): 0.13
+	User time (seconds): 0.12
 	System time (seconds): 0.02
-	Percent of CPU this job got: 517%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Percent of CPU this job got: 493%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 19644
+	Maximum resident set size (kbytes): 23852
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 11
-	Minor (reclaiming a frame) page faults: 2782
-	Voluntary context switches: 1054
-	Involuntary context switches: 206
+	Major (requiring I/O) page faults: 14
+	Minor (reclaiming a frame) page faults: 2733
+	Voluntary context switches: 986
+	Involuntary context switches: 375
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -604,22 +604,22 @@ Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/ForceEqualIfEnabled@comparators.r1cs ./circuits/ForceEqualIfEnabled@comparators_js/ForceEqualIfEnabled@comparators.wasm ./circuits/ForceEqualIfEnabled@comparators_input.json"
 	User time (seconds): 0.08
-	System time (seconds): 0.02
-	Percent of CPU this job got: 447%
+	System time (seconds): 0.01
+	Percent of CPU this job got: 456%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18160
+	Maximum resident set size (kbytes): 20176
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 9
-	Minor (reclaiming a frame) page faults: 2415
-	Voluntary context switches: 917
-	Involuntary context switches: 276
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 2425
+	Voluntary context switches: 946
+	Involuntary context switches: 647
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -633,23 +633,23 @@ Processing Circuit: GreaterEqThan@comparators.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/GreaterEqThan@comparators.r1cs ./circuits/GreaterEqThan@comparators_js/GreaterEqThan@comparators.wasm ./circuits/GreaterEqThan@comparators_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.01
-	Percent of CPU this job got: 475%
+	User time (seconds): 0.08
+	System time (seconds): 0.02
+	Percent of CPU this job got: 442%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20240
+	Maximum resident set size (kbytes): 20400
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 8
-	Minor (reclaiming a frame) page faults: 2405
-	Voluntary context switches: 995
-	Involuntary context switches: 151
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 2385
+	Voluntary context switches: 1128
+	Involuntary context switches: 954
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -663,23 +663,23 @@ Processing Circuit: GreaterThan@comparators.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/GreaterThan@comparators.r1cs ./circuits/GreaterThan@comparators_js/GreaterThan@comparators.wasm ./circuits/GreaterThan@comparators_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.01
-	Percent of CPU this job got: 460%
+	User time (seconds): 0.08
+	System time (seconds): 0.02
+	Percent of CPU this job got: 441%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20600
+	Maximum resident set size (kbytes): 20092
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 8
-	Minor (reclaiming a frame) page faults: 2458
-	Voluntary context switches: 908
-	Involuntary context switches: 72
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 2417
+	Voluntary context switches: 1078
+	Involuntary context switches: 229
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -693,23 +693,23 @@ Processing Circuit: IsEqual@comparators.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/IsEqual@comparators.r1cs ./circuits/IsEqual@comparators_js/IsEqual@comparators.wasm ./circuits/IsEqual@comparators_input.json"
-	User time (seconds): 0.07
-	System time (seconds): 0.02
-	Percent of CPU this job got: 429%
+	User time (seconds): 0.08
+	System time (seconds): 0.01
+	Percent of CPU this job got: 452%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 22280
+	Maximum resident set size (kbytes): 20124
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 18
-	Minor (reclaiming a frame) page faults: 2405
-	Voluntary context switches: 848
-	Involuntary context switches: 162
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 2415
+	Voluntary context switches: 901
+	Involuntary context switches: 357
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -723,23 +723,23 @@ Processing Circuit: IsZero@comparators.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/IsZero@comparators.r1cs ./circuits/IsZero@comparators_js/IsZero@comparators.wasm ./circuits/IsZero@comparators_input.json"
-	User time (seconds): 0.08
-	System time (seconds): 0.01
-	Percent of CPU this job got: 430%
+	User time (seconds): 0.06
+	System time (seconds): 0.03
+	Percent of CPU this job got: 443%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18032
+	Maximum resident set size (kbytes): 17884
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 9
-	Minor (reclaiming a frame) page faults: 2444
-	Voluntary context switches: 831
-	Involuntary context switches: 138
+	Major (requiring I/O) page faults: 6
+	Minor (reclaiming a frame) page faults: 2406
+	Voluntary context switches: 910
+	Involuntary context switches: 66
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -755,21 +755,21 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/LessEqThan@comparators.r1cs ./circuits/LessEqThan@comparators_js/LessEqThan@comparators.wasm ./circuits/LessEqThan@comparators_input.json"
 	User time (seconds): 0.09
 	System time (seconds): 0.02
-	Percent of CPU this job got: 475%
+	Percent of CPU this job got: 479%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20104
+	Maximum resident set size (kbytes): 20452
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 4
+	Major (requiring I/O) page faults: 3
 	Minor (reclaiming a frame) page faults: 2360
-	Voluntary context switches: 918
-	Involuntary context switches: 108
+	Voluntary context switches: 956
+	Involuntary context switches: 221
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -783,23 +783,23 @@ Processing Circuit: LessThan@comparators.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/LessThan@comparators.r1cs ./circuits/LessThan@comparators_js/LessThan@comparators.wasm ./circuits/LessThan@comparators_input.json"
-	User time (seconds): 0.08
-	System time (seconds): 0.02
-	Percent of CPU this job got: 456%
+	User time (seconds): 0.09
+	System time (seconds): 0.00
+	Percent of CPU this job got: 433%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20888
+	Maximum resident set size (kbytes): 20552
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 7
-	Minor (reclaiming a frame) page faults: 2429
-	Voluntary context switches: 842
-	Involuntary context switches: 198
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 2451
+	Voluntary context switches: 1007
+	Involuntary context switches: 303
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -813,23 +813,23 @@ Processing Circuit: MiMC7@mimc.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/MiMC7@mimc.r1cs ./circuits/MiMC7@mimc_js/MiMC7@mimc.wasm ./circuits/MiMC7@mimc_input.json"
-	User time (seconds): 0.10
-	System time (seconds): 0.01
-	Percent of CPU this job got: 451%
+	User time (seconds): 0.09
+	System time (seconds): 0.02
+	Percent of CPU this job got: 465%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 21348
+	Maximum resident set size (kbytes): 21536
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 14
-	Minor (reclaiming a frame) page faults: 2782
-	Voluntary context switches: 1012
-	Involuntary context switches: 854
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 2719
+	Voluntary context switches: 1049
+	Involuntary context switches: 173
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -843,23 +843,23 @@ Processing Circuit: MiMCFeistel@mimcsponge.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/MiMCFeistel@mimcsponge.r1cs ./circuits/MiMCFeistel@mimcsponge_js/MiMCFeistel@mimcsponge.wasm ./circuits/MiMCFeistel@mimcsponge_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.03
-	Percent of CPU this job got: 365%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	User time (seconds): 0.10
+	System time (seconds): 0.01
+	Percent of CPU this job got: 448%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 22596
+	Maximum resident set size (kbytes): 22112
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 15
-	Minor (reclaiming a frame) page faults: 3073
-	Voluntary context switches: 1335
-	Involuntary context switches: 1307
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 2980
+	Voluntary context switches: 957
+	Involuntary context switches: 319
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -875,21 +875,21 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/MiMCSponge@mimcsponge.r1cs ./circuits/MiMCSponge@mimcsponge_js/MiMCSponge@mimcsponge.wasm ./circuits/MiMCSponge@mimcsponge_input.json"
 	User time (seconds): 0.12
 	System time (seconds): 0.01
-	Percent of CPU this job got: 368%
+	Percent of CPU this job got: 450%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 24456
+	Maximum resident set size (kbytes): 24824
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 15
-	Minor (reclaiming a frame) page faults: 2978
-	Voluntary context switches: 1196
-	Involuntary context switches: 1741
+	Major (requiring I/O) page faults: 12
+	Minor (reclaiming a frame) page faults: 3187
+	Voluntary context switches: 956
+	Involuntary context switches: 308
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -903,23 +903,23 @@ Processing Circuit: Montgomery2Edwards@montgomery.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/Montgomery2Edwards@montgomery.r1cs ./circuits/Montgomery2Edwards@montgomery_js/Montgomery2Edwards@montgomery.wasm ./circuits/Montgomery2Edwards@montgomery_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.01
-	Percent of CPU this job got: 400%
+	User time (seconds): 0.07
+	System time (seconds): 0.03
+	Percent of CPU this job got: 441%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 22240
+	Maximum resident set size (kbytes): 22216
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 9
-	Minor (reclaiming a frame) page faults: 2341
-	Voluntary context switches: 1169
-	Involuntary context switches: 848
+	Major (requiring I/O) page faults: 6
+	Minor (reclaiming a frame) page faults: 2432
+	Voluntary context switches: 974
+	Involuntary context switches: 222
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -933,23 +933,23 @@ Processing Circuit: MontgomeryAdd@montgomery.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/MontgomeryAdd@montgomery.r1cs ./circuits/MontgomeryAdd@montgomery_js/MontgomeryAdd@montgomery.wasm ./circuits/MontgomeryAdd@montgomery_input.json"
-	User time (seconds): 0.08
+	User time (seconds): 0.09
 	System time (seconds): 0.01
-	Percent of CPU this job got: 411%
+	Percent of CPU this job got: 450%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20324
+	Maximum resident set size (kbytes): 20564
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 11
-	Minor (reclaiming a frame) page faults: 2410
-	Voluntary context switches: 1016
-	Involuntary context switches: 746
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 2384
+	Voluntary context switches: 911
+	Involuntary context switches: 288
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -963,23 +963,23 @@ Processing Circuit: MontgomeryDouble@montgomery.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/MontgomeryDouble@montgomery.r1cs ./circuits/MontgomeryDouble@montgomery_js/MontgomeryDouble@montgomery.wasm ./circuits/MontgomeryDouble@montgomery_input.json"
-	User time (seconds): 0.09
-	System time (seconds): 0.02
-	Percent of CPU this job got: 418%
+	User time (seconds): 0.10
+	System time (seconds): 0.00
+	Percent of CPU this job got: 428%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20184
+	Maximum resident set size (kbytes): 21972
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 10
-	Minor (reclaiming a frame) page faults: 2395
-	Voluntary context switches: 1317
-	Involuntary context switches: 728
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 2386
+	Voluntary context switches: 937
+	Involuntary context switches: 285
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -990,23 +990,23 @@ Command exited with non-zero status 1
 Processing Circuit: MultiAND@gates.circom
 ✅ Valid input found. Running benchmark...
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/MultiAND@gates.r1cs ./circuits/MultiAND@gates_js/MultiAND@gates.wasm ./circuits/MultiAND@gates_input.json"
-	User time (seconds): 0.07
-	System time (seconds): 0.02
-	Percent of CPU this job got: 426%
+	User time (seconds): 0.09
+	System time (seconds): 0.01
+	Percent of CPU this job got: 420%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18364
+	Maximum resident set size (kbytes): 20516
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 9
-	Minor (reclaiming a frame) page faults: 2427
-	Voluntary context switches: 1088
-	Involuntary context switches: 460
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 2438
+	Voluntary context switches: 917
+	Involuntary context switches: 306
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -1061,23 +1061,23 @@ Processing Circuit: Mux4@mux4.circom
 Processing Circuit: NAND@gates.circom
 ✅ Valid input found. Running benchmark...
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/NAND@gates.r1cs ./circuits/NAND@gates_js/NAND@gates.wasm ./circuits/NAND@gates_input.json"
-	User time (seconds): 0.08
+	User time (seconds): 0.09
 	System time (seconds): 0.01
-	Percent of CPU this job got: 421%
+	Percent of CPU this job got: 416%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18656
+	Maximum resident set size (kbytes): 20376
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 23
-	Minor (reclaiming a frame) page faults: 2427
-	Voluntary context switches: 813
-	Involuntary context switches: 143
+	Major (requiring I/O) page faults: 13
+	Minor (reclaiming a frame) page faults: 2416
+	Voluntary context switches: 809
+	Involuntary context switches: 295
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -1091,23 +1091,23 @@ Processing Circuit: NOR@gates.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/NOR@gates.r1cs ./circuits/NOR@gates_js/NOR@gates.wasm ./circuits/NOR@gates_input.json"
-	User time (seconds): 0.08
-	System time (seconds): 0.01
-	Percent of CPU this job got: 429%
+	User time (seconds): 0.07
+	System time (seconds): 0.03
+	Percent of CPU this job got: 439%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18124
+	Maximum resident set size (kbytes): 21796
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 10
-	Minor (reclaiming a frame) page faults: 2422
-	Voluntary context switches: 1021
-	Involuntary context switches: 117
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 2347
+	Voluntary context switches: 976
+	Involuntary context switches: 274
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -1123,21 +1123,21 @@ Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/NOT@gates.r1cs ./circuits/NOT@gates_js/NOT@gates.wasm ./circuits/NOT@gates_input.json"
 	User time (seconds): 0.08
 	System time (seconds): 0.01
-	Percent of CPU this job got: 445%
+	Percent of CPU this job got: 450%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18380
+	Maximum resident set size (kbytes): 20180
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 3
-	Minor (reclaiming a frame) page faults: 2418
-	Voluntary context switches: 821
-	Involuntary context switches: 61
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 2432
+	Voluntary context switches: 883
+	Involuntary context switches: 96
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -1163,23 +1163,23 @@ Processing Circuit: OR@gates.circom
 Error: Custom { kind: Other, error: "Proof verification failed" }
 Command exited with non-zero status 1
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/OR@gates.r1cs ./circuits/OR@gates_js/OR@gates.wasm ./circuits/OR@gates_input.json"
-	User time (seconds): 0.06
+	User time (seconds): 0.07
 	System time (seconds): 0.03
-	Percent of CPU this job got: 434%
+	Percent of CPU this job got: 443%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 17804
+	Maximum resident set size (kbytes): 20036
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 10
-	Minor (reclaiming a frame) page faults: 2427
-	Voluntary context switches: 907
-	Involuntary context switches: 78
+	Minor (reclaiming a frame) page faults: 2418
+	Voluntary context switches: 965
+	Involuntary context switches: 86
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
@@ -1243,22 +1243,22 @@ Processing Circuit: XOR@gates.circom
 ✅ Valid input found. Running benchmark...
 	Command being timed: "./target/release/dogecoin_zkp_generator_qa1 ./circuits/XOR@gates.r1cs ./circuits/XOR@gates_js/XOR@gates.wasm ./circuits/XOR@gates_input.json"
 	User time (seconds): 0.08
-	System time (seconds): 0.02
-	Percent of CPU this job got: 425%
+	System time (seconds): 0.01
+	Percent of CPU this job got: 430%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 22520
+	Maximum resident set size (kbytes): 20352
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 14
-	Minor (reclaiming a frame) page faults: 2373
-	Voluntary context switches: 896
-	Involuntary context switches: 156
+	Major (requiring I/O) page faults: 13
+	Minor (reclaiming a frame) page faults: 2367
+	Voluntary context switches: 908
+	Involuntary context switches: 126
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 0
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

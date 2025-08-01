@@ -21,7 +21,7 @@ use std::collections::HashMap;
 use wasmer::Store;
 
 use std::env;
-use std::time::Instant; // 引入计时工具
+use std::time::Instant; 
 
 struct CircuitFromR1CS {
     r1cs: r1cs::R1CS,
@@ -29,7 +29,6 @@ struct CircuitFromR1CS {
 }
 
 impl CircuitFromR1CS {
-    // 最终修正: 函数签名现在接收所有必要的路径
     fn new(
         r1cs_data: r1cs::R1CS,
         wasm_file_path: &Path,
@@ -52,7 +51,6 @@ impl CircuitFromR1CS {
         let mut witness_calculator = WitnessCalculator::new(&mut store, wasm_file_path)
             .map_err(|e| io::Error::new(ErrorKind::Other, format!("Failed to load WASM: {:?}", e)))?;
 
-        // 最终修正: 从传入的参数路径读取文件
         let inputs_json_str = std::fs::read_to_string(input_json_path)?;
         println!("  Using private inputs for witness calculation: {}", inputs_json_str);
 
@@ -177,7 +175,6 @@ impl ConstraintSynthesizer<Fr> for CircuitFromR1CS {
 #[tokio::main]
 async fn main() -> io::Result<()> {
     let args: Vec<String> = env::args().collect();
-    // 最终修正: 命令行需要4个参数: 程序名, r1cs, wasm, input_json
     if args.len() != 4 {
         eprintln!("用法: {} <circuit.r1cs> <circuit.wasm> <input.json>", args[0]);
         std::process::exit(1);
@@ -194,7 +191,6 @@ async fn main() -> io::Result<()> {
     println!("✅ Parsed R1CS, constraints = {}", r1cs_data.num_constraints());
 
     println!("\nCreating circuit from R1CS for setup...");
-    // 最终修正: 调用新的 new 函数，传入所有路径
     let circuit_for_setup = CircuitFromR1CS::new(r1cs_data, &wasm_file_path, &input_json_path)?;
 
     println!("\nRunning Groth16 setup...");
@@ -212,7 +208,6 @@ async fn main() -> io::Result<()> {
 
     println!("\nRe-creating circuit for proving...");
     let r1cs_data2 = r1cs::R1CS::read(&r1cs_file_path)?;
-    // 最终修正: 再次调用新的 new 函数
     let circuit_for_proving = CircuitFromR1CS::new(r1cs_data2, &wasm_file_path, &input_json_path)?;
 
     let public_inputs = circuit_for_proving.get_public_inputs();
@@ -229,12 +224,10 @@ async fn main() -> io::Result<()> {
     println!("\nVerifying proof locally...");
     let pvk = prepare_verifying_key(&params.vk);
     
-    // --- 植入计时器 ---
     let start_time = Instant::now();
     let verification_result = Groth16::<Bls12_381>::verify_with_processed_vk(&pvk, &public_inputs, &proof);
     let duration = start_time.elapsed();
     println!("[BENCHMARK_RESULT] Verification Time: {:.2}ms", duration.as_secs_f64() * 1000.0);
-    // --- 计时结束 ---
 
     match verification_result {
         Ok(true) => println!("✅ Proof verified successfully!"),
@@ -250,7 +243,6 @@ async fn main() -> io::Result<()> {
 
     println!("\nR1CS processing complete!");
 
-    // === 4. 序列化为 Dogecoin OP_CHECKZKP 脚本推送格式 ===
     {
         use ark_ec::AffineRepr;
         use ark_serialize::{CanonicalSerialize, Compress};
@@ -279,8 +271,6 @@ async fn main() -> io::Result<()> {
             stack_items.push(pi_bytes);
         }
         
-        // ... (此处省略了原有的复杂序列化逻辑，如果需要可以加回来) ...
-
         println!("\n✅ Successfully prepared data for script generation.");
     }
 
