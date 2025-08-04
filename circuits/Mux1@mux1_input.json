@@ -1,3 +1,4 @@
 {
-    "TODO": "Please replace this with the correct private inputs for the 'Mux1@mux1' circuit."
+  "c": ["100", "200"],
+  "s": "1"
 }

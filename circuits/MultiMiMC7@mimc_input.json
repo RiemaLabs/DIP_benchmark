@@ -1,3 +1,4 @@
 {
-    "TODO": "Please replace this with the correct private inputs for the 'MultiMiMC7@mimc' circuit."
+  "in": ["1", "2"],
+  "k": "0"
 }

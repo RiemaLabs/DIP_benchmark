@@ -1,3 +1,4 @@
 {
-    "TODO": "Please replace this with the correct private inputs for the 'Multiplexor2@escalarmulany' circuit."
+  "in": ["10","11","20","21"],
+  "sel": "1"
 }

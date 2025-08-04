@@ -1,3 +1,4 @@
 {
-    "TODO": "Please replace this with the correct private inputs for the 'EscalarProduct@multiplexer' circuit."
+  "in1": ["1", "0"],
+  "in2": ["0", "1"]
 }
